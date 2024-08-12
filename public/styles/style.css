@@ -1,0 +1,51 @@
+
+/* body {
+    padding-top: 20px; 
+} */
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+} */
+
+.info-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+/* .info-box h2 {
+    margin-top: 0;
+} */
+
+body {
+    padding-top: 30px; 
+    padding-bottom:20px;
+}
+
+table {
+    width: 100%;
+}
+
+
+#carouselExampleIndicators .carousel-item {
+    height: 10%;
+}
+
+#carouselExampleIndicators .carousel-item img {
+    height: 700px;
+    object-fit: cover; 
+    padding-left: 20px;
+    padding-right:20px;
+}
+
