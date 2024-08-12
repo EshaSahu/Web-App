@@ -41,7 +41,7 @@ jobs:
     needs: build
     environment:
       name: 'Production'
-      url: eshasahuempn1073.azurewebsites.net
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     
     steps:
       - name: Download artifact from build job
@@ -59,4 +59,4 @@ jobs:
           app-name: 'EshaSahuEMPN1073'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0D0777AC80594ADEACE65377AD6A65C8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CC0E7086377C461CBB2DE23DDFC9A751 }}
